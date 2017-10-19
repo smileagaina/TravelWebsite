@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+}
+body a{ 
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Bad Script', cursive;
+}
+	/*css for the header*/
+	header {
+		width: 100%;
+		height: 120px;
+		background: rgba(218, 0, 255, 0.41);
+	}
+	header h2 {
+		margin-left: 16%; 
+		font-size: 50px; 
+		font-weight: bold; 
+		color: #FFF; 
+		padding-top: 10px;
+	}
+	header p {
+		margin-left: 15%; 
+		font-size: 14px; 
+		color: #fff;
+	}
+	/*css for overplay*/
+	#lean_overlay {
+		position: fixed;
+		background: #000;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: none;
+	}
+	/*css for the #form*/
+	#from {
+		text-align: center;
+		
+	}
+	#from div {
+		 display: none;
+	}
+	.overig {
+		border-radius: 10px;
+	}
+	.form1 p, .form2 p, .form3 p, .form4 p, form5 p, form6 p {
+		 font-size: 16px; 
+		 opacity: 0.8; 
+		 font-weight: bold;
+	}
+	img {
+		width: 400px;
+		height: 280px;
+	}
+	#all2 {
+		margin-top: 15px;
+		text-align: center;
+	}
+	/*css for the title and the describe of the web at first*/
+	#all1 {
+		font-style: italic;
+		font-size: 18px;
+		font-weight: bold;
+		font: Arial, Helvetica, sans-serif;
+		background-color: linear-gradient(to top right, #0CC, #CF9);
+	}
+	.welDescribe {
+		color: linear-gradient(to top right, #0CC, #CF9);
+	}
+	#allmid {
+		margin-top: 10px;
+		width: 1270px;
+		background: #0FF;
+		text-align: center;
+		margin-left: 40px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	
+	
+/*-- newsletter --*/
+.newsletter {
+	clear: both;
+    text-align: center;
+}
+.newsletter form {
+    margin-top: 1.2em;
+    width: 70%;
+    margin: 2em auto 0;
+}
+.newsletter input[type="text"] {
+    width: 86%;
+    padding: .8em;
+    font-size: 1em;
+    float: left;
+    color: #999;
+    outline: none;
+    border: 1px solid #999;
+    border-right: none;
+    background: none;
+    -webkit-appearance: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.newsletter input[type="submit"] {
+    float: left;
+    color: #999;
+    font-size: 1em;
+    outline: none;
+    padding: .8em 1.7em;
+    border: 1px solid #999;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-appearance: none;
+    background: none;
+}
+.newsletter form:hover input[type="text"] {
+    border-color: #f30d60;
+}
+.newsletter form:hover input[type="submit"] {
+    border-color: #f30d60;
+    background: #f30d60;
+	color:#fff
+} 
+/*-- //newsletter --*/
+/*-- footer start here --*/ 
+.footer-agile {
+    background-color: #24202a;
+	padding: 4em 0 3em;
+} 
+.footer-wthree-grid:nth-child(1) {
+    padding-right: 4em;
+} 
+.agileits-title {
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+}
+.agileits-title p {
+	font-size:30px;
+	color:#000;
+	text-align:center;
+}
+.agileits-w3layouts-tweets h5 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.8em;
+    display: inline-block;
+} 
+.agileits-w3layouts-tweets h5 a{
+	color: #fff;
+	text-decoration:none;
+} 
+.footer-wthree-grid ul {
+    padding: 0px;
+    list-style: none;
+}
+.footer-wthree-grid ul li {
+    margin-top: 0.8em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+} 
+.footer-wthree-grid ul li a {
+    color: #fff;
+    font-size: 1em;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+} 
+.footer-wthree-grid ul li a:hover,.ftr-text p a:hover {
+    color:#0fdfe2;
+} 
+.footer-wthree-grid p { 
+    color: #fff; 
+}   
+.footer-wthree-grid h3 {
+    font-size: 1.8em;
+    color: #0fdfe2;
+    margin-bottom: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.footer-wthree-grid span{
+    margin-right: 6px;
+	font-size: .85em;
+} 
+.social-icon.footerw3ls {
+    margin: 0 1.5em 0 0;
+}
+.social-icon.footerw3ls a {
+    width: 30px;
+    height: 30px;
+    margin: 0 .3em;
+    border: 1px solid #fff;
+    font-size: 1em; 
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%; 
+	border-radius: 50%; 
+}
+/*-- //footer end here --*/
+

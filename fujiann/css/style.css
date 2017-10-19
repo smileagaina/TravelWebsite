@@ -1,0 +1,76 @@
+body{
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+}
+body a{ 
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	transition: 0.5s all;
+	text-decoration:none;
+}
+
+#fh5co-header {
+  position: relative;
+  margin-bottom: 0;
+  z-index: 9999999;
+}
+#fh5co-header-section {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Bad Script', cursive;
+}
+p{
+	margin:0;
+	
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+/*-- banner --*/ 
+.banner{ 
+	background:url(../images/%E7%A6%8F%E5%BB%BA/wKgB4lMQSqeAL288AAVi827DBS051.jpg);
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover;
+	-ms-background-size:cover; 	
+	background-size:contain; 
+	min-height: 790px;
+	position:relative;
+} 
+
+.welcome,.services,.slid,.newsletter,.codes{
+	padding:5em 0;
+}
+h3.agileits-title {
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.welcome h4 {
+    font-size: 1.8em;
+    color:#F00;
+    margin-bottom: 0.8em;
+} 
+p {
+    font-size:medium;
+    color: #FFF;
+    line-height: 2em;
+    font-weight:bold;
+}
+

@@ -1,0 +1,194 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*初始化所有的padding, margin*/
+* { margin: 0px; padding: 0px; border: none; }
+/*background of body*/
+body {  
+	text-align: center;
+	font-size: 12px;
+	font: Arial, Helvetica, sans-serif;
+	background-color: rgb(241, 241, 241);
+	/*background-image: url(../images/pic1.jpg);*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background: linear-gradient(to top right, #F6C, #0CF);
+	opacity: 0.9;
+}
+/*css for the header*/
+header {
+	background: linear-gradient(to top right, #0CC, #CF9);
+	opacity: 0.5;
+}
+header .a1 {
+	font-size: 36px;
+	font-weight: bold;
+	opacity: 0.5;
+	color: linear-gradient(to top right, #0CC, #CF9);
+	text-decoration: none;
+	float: left;
+	
+}
+header .a2{
+	font-size: 36px;
+	font-weight: bold;
+	opacity: 0.5;
+	color: linear-gradient(to top right, #0CC, #CF9);
+	text-decoration: none;
+	
+}
+header .a2:hover, header .a1:hover {
+	margin:auto;
+	opacity: 1;
+}
+/*css for the all wrap*/
+.wrap {
+	clear: both;
+	margin-top: 80px; 
+	width: 60%; 
+	height: 100%;
+	display: inline;
+	float: left;
+}
+.wrapRight {
+	margin-top: 40px;
+	width: 40%;
+	height: 100%;
+	display: inline;
+	float: right;
+}
+.wrapRight img {
+	width: 380px;
+	height: 350px;
+}
+#stateTip { position: absolute;}
+/**/
+/*css for the content, the content should not be see at first , but can be show when you click the The area of province*/
+#Content { display: none; }
+/*css for the content*/
+.mapTipText { width: 280px;height: 110px;background-color: #ffffff;}
+.mapTipText .mapTipImg { height: 66px; width: 66px; float: left;border: 2px solid #ffffff; border-radius: 50%;overflow: hidden;margin: -12px 5px 0 -12px;}
+.mapTipText .mapTipImg img { width: 100%;height: 100%;}
+.mapTipText .mapTipList { float: left;margin-left: 4px;}
+.mapTipText .mapTipList h2 { text-align: left;}
+.mapTipText .mapTipList h2 a { font-size: 24px; color: #262626;text-decoration:none;}
+.mapTipText .mapTipList h2 a:hover { color: #0085d2;}
+.mapTipText .mapTipList h2 a span { font-size: 16px;margin-left: 3px;}
+.mapTipText .mapTipList div { width: 203px; padding-right: 10px; height: auto; }
+/*css for the earth*/
+
+/*-- newsletter --*/
+.newsletter {
+	clear: both;
+    text-align: center;
+}
+.newsletter form {
+    margin-top: 1.2em;
+    width: 70%;
+    margin: 2em auto 0;
+}
+.newsletter input[type="text"] {
+    width: 86%;
+    padding: .8em;
+    font-size: 1em;
+    float: left;
+    color: #999;
+    outline: none;
+    border: 1px solid #999;
+    border-right: none;
+    background: none;
+    -webkit-appearance: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.newsletter input[type="submit"] {
+    float: left;
+    color: #999;
+    font-size: 1em;
+    outline: none;
+    padding: .8em 1.7em;
+    border: 1px solid #999;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+    -webkit-appearance: none;
+    background: none;
+}
+.newsletter form:hover input[type="text"] {
+    border-color: #f30d60;
+}
+.newsletter form:hover input[type="submit"] {
+    border-color: #f30d60;
+    background: #f30d60;
+	color:#fff
+} 
+/*-- //newsletter --*/
+/*-- footer start here --*/ 
+.footer-agile {
+    background-color: #24202a;
+	padding: 4em 0 3em;
+} 
+.footer-wthree-grid:nth-child(1) {
+    padding-right: 4em;
+} 
+.agileits-w3layouts-tweets h5 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.8em;
+    display: inline-block;
+} 
+.agileits-w3layouts-tweets h5 a{
+	color: #fff;
+	text-decoration:none;
+} 
+.footer-wthree-grid ul {
+    padding: 0px;
+    list-style: none;
+}
+.footer-wthree-grid ul li {
+    margin-top: 0.8em;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+} 
+.footer-wthree-grid ul li a {
+    color: #fff;
+    font-size: 1em;
+	-webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    transition: 0.5s all;
+} 
+.footer-wthree-grid ul li a:hover,.ftr-text p a:hover {
+    color:#0fdfe2;
+} 
+.footer-wthree-grid p { 
+    color: #fff; 
+}   
+.footer-wthree-grid h3 {
+    font-size: 1.8em;
+    color: #0fdfe2;
+    margin-bottom: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.footer-wthree-grid span{
+    margin-right: 6px;
+	font-size: .85em;
+} 
+.social-icon.footerw3ls {
+    margin: 0 1.5em 0 0;
+}
+.social-icon.footerw3ls a {
+    width: 30px;
+    height: 30px;
+    margin: 0 .3em;
+    border: 1px solid #fff;
+    font-size: 1em; 
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%; 
+	border-radius: 50%; 
+}
+/*-- //footer end here --*/
+
+
