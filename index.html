@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Start Project</title>
+<link rel="stylesheet" href="css/one.css" type="text/css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+	window.onload = function () {
+		var videoPlayer = document.getElementById("startvideo");
+		videoPlayer.addEventListener("timeupdate", function () {
+		     if(videoPlayer.currentTime > 219){//ten second
+			   /*videoPlayer.style.width="50%";*/
+		       window.location.href="Main.html";  
+		     }//if
+			}, false);
+	};
+</script>
+</head>
+
+<body>
+<div id="content">
+	
+    
+    <!--start of the video-->
+	<div id="video">
+        <video id="startvideo" src="video/1.mp4" controls="controls" autoplay="autoplay" >
+        </video>
+    </div>
+	<!--end of the video-->
+
+	<!-- footer start here --> 
+	<div class="footer-agile">
+		<div class="container">
+			<div class="copy-right"> 
+    			<p>Copyright 2017: Made-by S.J.L </p>
+			</div>
+		</div>
+	</div> 
+</div>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TravelChinaAll</title>
+    <link type="text/css" rel="stylesheet" href="css/MapCss.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+    <script type="text/javascript" src="js/chinaMapConfig.js"></script>
+    <script type="text/javascript" src="js/map-min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('#ChinaMap').SVGMap({
+                mapWidth: 806*1.2,
+                mapHeight: 396*1.2,
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <div class="itemCon">
+    	<!--ChinaMap用于放中国地图-->
+        <div id="ChinaMap">HelloMap</div>
+        <div id="stateTip"></div>
+    </div>
+    <div id="Content">
+    	
+    	<!--黑龙江省HeiLongJiang-->
+        <div class="mapTipText mapTipText0" style="text-align: left;">
+            <div class="mapTipImg"><img src="images/heilongjiang.jpg" alt=""/></div>
+            <div class="mapTipList">
+                <h2><a href="HeiLongJiang.html">黑龙江<span>Heilongjiang</span></a></h2>
+                <div>
+                  <p>Heilongjiang province, short for black, is the capital of Harbin, the northeast of China
+</p>
+                </div>
+            </div>
+        </div>
+        <!--吉林省JiLin-->
+        <div class="mapTipText mapTipText1">
+            <div class="mapTipImg"><img src="images/jilin.jpg" alt=""/></div>
+            <div class="mapTipList">
+                <h2><a href="JiLin.html">吉林<span>Jilin</span></a></h2>
+                <div>
+                  <p>Jilin province is located in the middle of northeast China, northeast Asia geographical center, short for "ji", the provincial capital changchun.
+<p> 
+                </div>
+            </div>
+        </div>
+        <!--辽宁省LiaoNing-->
+        <div class="mapTipText mapTipText2">
+            <div class="mapTipImg"><img src="images/liaoning.jpg" alt=""/></div>
+            <div class="mapTipList">
+                <h2><a href="LiaoNing.html">辽宁<span>Liaoning</span></a></h2>
+                <div>
+                  <p>Liaoning province, short for liao, the capital shenyang,Liaoning is known as "the eldest son of the Republic", "Oriental Ruhr".</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--山东省ShanDong-->
+        <div class="mapTipText mapTipText4">
+        	<div class="mapTipImg"><img src="images/ShanDong.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="ShanDong.html">山东<span>ShanDong</span></a></h2>
+                <div>
+                	<p>Shandong is named after the east of Taihang Mountain, referred to as Lu, the provincial capital of Ji'nan</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        <!--江苏省JiangSu还没-->
+        <div class="mapTipText mapTipText5">
+        	<div class="mapTipImg"><img  src="images/jiangsu.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="JiangSu.html">江苏<span>JiangSu</span></a></h2>
+                <div>
+                	<p>
+
+Jiangsu, referred to as "Su", the capital of Nanjing, is located on the eastern coast of the mainland China.</p>
+                    
+                </div>
+            </div>
+        </div>
+        <!--浙江省ZheJiang-->
+        <div class="mapTipText mapTipText6">
+        	<div class="mapTipImg"><img src="images/zhejiang.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="ZheJiang.html">浙江<span>ZheJiang</span></a></h2>
+                <div>
+                    <p>
+    Zhejiang, referred to as "zhe", is the capital of Hangzhou province. The largest river in the country is Qian Tang River, with the province as its name
+    				</p>
+                </div>
+            </div>
+        </div>
+        <!--安徽省AnHui-->
+        <div class="mapTipText mapTipText7">
+        	<div class="mapTipImg"><img src="images/anhui.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="AnHui.html">安徽<span>AnHui</span></a></h2>
+                <div>
+                    <p>
+    
+    Anhui, referred to as "Anhui", the provincial capital of Hefei, Anhui, was named after "Anqing government" and "Huizhou government"</p>
+                </div>
+            </div>
+        </div>
+       
+        <!--江西JiangXi-->
+        <div class="mapTipText mapTipText13">
+        	<div class="mapTipImg"><img src="images/jiangxi.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="jiangxi/jiangxi.html">江西<span>JiangXi</span></a></h2>
+                <div>
+                		<p>Jiangxi, the provincial capital of Nanchang, the ancient dry land and is the largest river in the province for the Ganjiang River and referred to as Jiangxi</p>
+                </div>
+            </div>
+        </div>
+        <!--福建FuJian-->
+        <div class="mapTipText mapTipText14">
+        	<div class="mapTipImg"><img src="images/fujian.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="fujiann/fujiann.html">福建<span>FuJian</span></a></h2>
+                <div>
+                	<p>Fujian, or "Min", is the capital of Fuzhou province. The geographical features of Fujian are "mountain near the sea""</p>
+                </div>
+            </div>
+        </div>
+        <!--湖南HuNan-->
+       
+        <!--贵州GuiZhou-->
+        <div class="mapTipText mapTipText16">
+        	<div class="mapTipImg"><img src="images/guizhou.png" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="GuiZhou.html">贵州<span>GuiZhou</span></a></h2>
+                <div>
+                		<p>
+
+Guizhou Province, referred to as "Qian" or "Gui", is a famous mountain tourism destination and mountain tourism province in the world</p>
+                </div>
+            </div>
+        </div>
+        <!--四川SIChuan-->
+        <div class="mapTipText mapTipText17">
+        	<div class="mapTipImg"><img src="images/sichuan.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="SiChuan.html">四川<span>SiChuan</span></a></h2>
+                <div>
+                	<p>
+
+Sichuan, referred to as "Sichuan" or "Shu", the capital of Chengdu, Sichuan is the most populous province with the world heritage</p>
+                </div>
+            </div>
+        </div>
+        <!--云南YunNan-->
+        <div class="mapTipText mapTipText18">
+        	<div class="mapTipImg"><img src="images/yunnan.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="YunNan.html">云南<span>YunNan</span></a></h2>
+                <div>
+                	<p>
+
+Yunnan, referred to as Yun (Dian), the provincial capital of Kunming,</p>
+                </div>
+            </div>
+        </div>
+        <!--青海QingHai-->
+        <div class="mapTipText mapTipText19">
+        	<div class="mapTipImg"><img src="images/qinghai.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="QingHai.html">青海<span>QingHai</span></a></h2>
+                <div>
+                	<p>
+
+Qinghai is the capital of Xining, referred to as qing, the roof of the world in the northeastern part of the Tibetan Plateau</p>
+                </div>
+            </div>
+        </div>
+        <!--海南HaiNan-->
+        <div class="mapTipText mapTipText20">
+        	<div class="mapTipImg"><img src="images/hainan.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="hainan/hainan.html">海南<span>HaiNan</span></a></h2>
+                <div>
+                	<p>
+
+Hainan, referred to as "qiong", is the largest province of China's land area (including sea area) in Hainan Province</p>>
+                </div>
+            </div>
+        </div>
+        <!--上海ShangHai-->
+        <div class="mapTipText mapTipText21">
+        	<div class="mapTipImg"><img src="images/shanghai.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="ShangHai.html">上海<span>ShangHai</span></a></h2>
+                <div>
+                	 	<p>
+
+
+Shanghai, or "Shanghai" or "Shen", is the largest city in China</p>
+                </div>
+            </div>
+        </div>
+       
+        <!--天津TianJin-->
+        <div class="mapTipText mapTipText23">
+        	<div class="mapTipImg"><img src="images/tianjing.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="TianJin.html">天津<span>TianJin</span></a></h2>
+                <div>
+                		<p>
+
+Tianjin, referred to as Tianjin, after 600 years, Tianjin has created a Chinese and Western, and compatible with the unique landscape of the city</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--北京BeiJing-->
+        <div class="mapTipText mapTipText24">
+        	<div class="mapTipImg"><img src="images/beijing.png" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="BeiJing.html">北京<span>BeiJing</span></a></h2>
+                <div>
+                	<p>Beijing, referred to as "Beijing", is the capital of People's Republic of China</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--新疆XinJiang-->
+        <div class="mapTipText mapTipText28">
+        	<div class="mapTipImg"><img src="images/xinjiang.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="XinJiang.html">新疆<span>XinJiang</span></a></h2>
+                <div>
+                <p>
+Xinjiang, or "new", is the largest provincial administrative area in China</p>
+                </div>
+            </div>
+        </div>
+        <!--西藏XiZang-->
+        <div class="mapTipText mapTipText29">
+        	<div class="mapTipImg"><img src="images/xizang.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="XiZang.html">西藏<span>XiZang</span></a></h2>
+                <div>
+                	<p>Tibet, referred to as "zang", Tibet with its majestic, magnificent natural magical scenery famous.</p>
+                </div>
+            </div>
+        </div>
+        <!--广东GuangDong-->
+        <div class="mapTipText mapTipText30">
+        	<div class="mapTipImg"><img src="images/guangdong.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="guangdong/guangdong.html">广东<span>GuangDong</span></a></h2>
+                <div>
+                	 	<p>
+
+Guangdong, the south of the Five Ridges East Road, Guangnan road evolved, referred to as the "Guangdong, the capital of Guangzhou</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--台湾TaiWan-->
+        <div class="mapTipText mapTipText32">
+        	<div class="mapTipImg"><img src="images/taiwan.jpg" alt=""/></div>
+            <div class="mapTipList">
+            	<h2><a href="taiiwan/taiiwan.html">台湾<span>TaiWan</span></a></h2>
+                <div>
+                		<p>
+
+Taiwan culture takes Chinese culture as the main body and is an important part of Chinese culture</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+</div>
+<div class="wrapRight">
+	<a href="BeiJing.html"><img src="images/earth.png"></a>
+</div>
+<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<h3 class="agileits-title">Contact us </h3>
+			<p>If you are interest in it, please contact us email.</p>
+			<form action="#" method="post"> 
+				<input type="text" name="email" placeholder="Enter your Email..." required>
+				<input type="submit" value="Subscribe">
+				<div class="clearfix"> </div> 
+			</form> 
+		</div> 
+	</div>
+<!-- //newsletter -->
+	<!-- footer start here --> 
+	<div class="footer-agile">
+		<div class="container">
+			<div class="copy-right"> 
+    			<p>Copyright 2017: Made-by S.J.L </p>
+			</div>
+		</div>
+	</div> 
+</body>
+</html>
